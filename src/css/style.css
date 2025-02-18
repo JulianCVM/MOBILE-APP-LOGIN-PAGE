@@ -25,7 +25,11 @@ header h1{
 header p{
     /*background-color: violet;*/'
     width: 342px;
+<<<<<<< HEAD
     margin-top: 10px;
+=======
+    margin-top: 9px;
+>>>>>>> 06ab8103042eaf9db77233ecdedd1b17bc69bbda
     /*background-color: blue;*/
     font-size: 20px;
     font-family: "Inter_18pt-Bold";
@@ -99,6 +103,7 @@ main {
 
 .section_form p a {
     color: var(--color-3)
+<<<<<<< HEAD
 }
 
 /* ################################## */
@@ -114,4 +119,6 @@ footer img{
     bottom: 0;
     object-fit: cover;
     width: 100%;
+=======
+>>>>>>> 06ab8103042eaf9db77233ecdedd1b17bc69bbda
 }
