@@ -1,0 +1,117 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter_18pt-Regular";
+}
+body {
+    background-color: var(--color-5)
+}
+/* ################ Header ################ */
+header {
+    /*background-color:red;*/
+    padding: 20px;
+    margin-left: 19px;
+    margin-top: 5px;
+}
+header h1{
+    /*background-color: red;*/
+    width: 264px;
+    font-size: 40px;
+    color: var(--color-1);
+    font-family: "Inter_28pt-Bold";
+}
+header p{
+    /*background-color: violet;*/'
+    width: 342px;
+    margin-top: 10px;
+    /*background-color: blue;*/
+    font-size: 20px;
+    font-family: "Inter_18pt-Bold";
+    color: var(--color-4);
+}
+/* ################################## */
+/* ################ Main ################ */
+main {
+    /* background-color:red; */
+    /* padding:20px; */
+}
+
+.section_images{
+    /* background-color:blue; */
+    overflow: hidden;
+    margin-top:25px;
+}
+
+.section_images img{
+    /* background-color: violet; */
+}
+.section_images img:first-child{
+    position: relative;
+    /* margin-left: -20px; */
+    /* left: -20px; */
+    /* left: -50% */
+    top:-80px;
+    }
+.section_images img:last-child{
+    position: relative;
+    /* margin-left: -20px; */
+    /* left: -20px; */
+    right: -40%;
+    bottom: -4px 
+}
+
+.section_form {
+    /* background-color: bisque; */
+    margin-top: 27px;
+    position: relative;
+}
+
+.section_form > a {
+    position: relative;
+    inset: 0;
+    margin: auto;
+
+    display: block;
+    background-color: var(--color-3);
+    width: 249px;
+    height: 59px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Inter_18pt-Bold";
+    font-size: 20px;
+    color: var(--color-1);
+    text-decoration: none;
+}
+
+.section_form p,
+.section_form p a{
+    text-decoration: none;
+    /* background-color: olive; */
+    color: var(--color-1);
+    margin-top: 8px;
+    text-align: center;
+    font-family: "Inter_18pt-Bold";
+    font-size: 15px;
+}
+
+.section_form p a {
+    color: var(--color-3)
+}
+
+/* ################################## */
+/* ################ Footer ################ */
+footer{
+    height: 425px;
+    position: relative;
+    overflow: hidden;
+}
+
+footer img{
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+}
